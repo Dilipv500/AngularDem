@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./dilip.component.css']
 })
 export class DilipComponent {
-
+  serverId:number=1;
+serverstatus:string="Active";
+getserverstatus(){
+  return "Server Id "+this.serverId + "Server Status  " +this.serverstatus;
+};
 }
