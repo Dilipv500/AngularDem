@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-dilip',
@@ -7,11 +7,6 @@ import { Component, OnInit } from '@angular/core';
 //  template:`dilip it works`,
   styleUrls: ['./dilip.component.css']
 })
-export class DilipComponent implements OnInit {
-
-  constructor() { }
-
-  ngOnInit() {
-  }
+export class DilipComponent {
 
 }
