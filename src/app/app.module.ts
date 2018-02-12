@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { DilipComponent } from './dilip/dilip.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    DilipComponent
   ],
   imports: [
     BrowserModule
