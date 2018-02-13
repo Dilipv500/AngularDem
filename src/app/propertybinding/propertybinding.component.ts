@@ -14,7 +14,7 @@ export class PropertybindingComponent implements OnInit {
   constructor() {
     setTimeout(() => {
       this.allownewserver = true;
-    }, 2000);
+    }, 5000);
   }
 
   ngOnInit() {}
